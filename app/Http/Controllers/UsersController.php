@@ -10,4 +10,13 @@ class UsersController extends Controller
     public function search(){
         return view('users.search');
     }
+    public function registration()//ユーザー登録
+        {
+            return view('users.register');
+        }
+    public function register(Request $request)
+    {
+        // バリデーション、ユーザー作成処理など
+    }
+
 }

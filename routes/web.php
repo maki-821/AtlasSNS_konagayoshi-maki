@@ -27,5 +27,11 @@ Route::get('profile', [ProfileController::class, 'profile']);
 Route::get('search', [UsersController::class, 'index']);
 
 Route::get('follow-list', [PostsController::class, 'index']);
+
 Route::get('follower-list', [PostsController::class, 'index']);
+
 Route::get('/', [PostsController::class, 'index']);
+
+Route::get('users/register',[UsersController::class,'registration']);
+
+Route::post('register',[UsersController::class,'register']);
