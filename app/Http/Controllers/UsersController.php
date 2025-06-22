@@ -16,7 +16,7 @@ class UsersController extends Controller
         }
     public function register(Request $request)
     {
-        // バリデーション、ユーザー作成処理など
+        // ユーザー作成処理
     }
 
 }
