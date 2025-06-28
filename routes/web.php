@@ -32,6 +32,6 @@ Route::get('follower-list', [PostsController::class, 'index']);
 
 Route::get('/', [PostsController::class, 'index']);
 
-Route::get('users/register',[UsersController::class,'registration']);
+Route::get('register',[UsersController::class,'registration']);
 
 Route::post('register',[UsersController::class,'register']);
