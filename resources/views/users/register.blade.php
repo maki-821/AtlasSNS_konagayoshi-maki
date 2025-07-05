@@ -31,7 +31,7 @@
             <label>パスワード確認 <input type="password" name="password_confirmation"></label>
             <button type="submit">登録</button>
         </form>
-        <a href="login.html">ログイン画面へ戻る</a>
+        <a href="/login">ログイン画面へ戻る</a>
     </div>
 </body>
 </html>
